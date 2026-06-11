@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Facebook, Instagram, MapPin, Phone, Mail, Navigation } from 'lucide-react';
 
 // ─── Editable constants ───────────────────────────────────────────────────────
-const QR_CARD_BG = '/images/daniel/all/daniel-182.webp';
+const QR_CARD_BG = '/images/daniel/all/daniel-182.webp?v=v20260611180056';
 
 const SOCIAL = {
   whatsapp:  'https://wa.me/393893451489?text=Ciao%20vorrei%20un%20preventivo%20gratuito',

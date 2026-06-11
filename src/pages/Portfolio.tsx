@@ -4,7 +4,7 @@ import { ArrowRight, X, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 // ─────────────────────────────────────────────────────────────────────────────
 // IMAGE CONTROL PANEL — ONLY CHANGE FILE NAMES HERE
 // Uploaded files are in:  public/images/daniel/all/
-// Use paths like:         /images/daniel/all/daniel-161.webp
+// Use paths like:         /images/daniel/all/daniel-161.webp?v=v20260611180056
 // Do not edit components below unless changing layout.
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -12,17 +12,17 @@ const PORTFOLIO_IMAGES = {
 
   // ── VETRI ──────────────────────────────────────────────────────────────────
   vetri: {
-    main:   '/images/daniel/all/daniel-160.webp',    // big card (16:10)
-    small1: '/images/daniel/all/daniel-120.webp',  // top small card (4:3)
-    small2: '/images/daniel/all/daniel-067.webp',  // bottom small card (4:3)
-    small3: '/images/daniel/all/daniel-100.webp',  // grid card (3:2)
+    main:   '/images/daniel/all/daniel-160.webp?v=v20260611180056',    // big card (16:10)
+    small1: '/images/daniel/all/daniel-120.webp?v=v20260611180056',  // top small card (4:3)
+    small2: '/images/daniel/all/daniel-067.webp?v=v20260611180056',  // bottom small card (4:3)
+    small3: '/images/daniel/all/daniel-100.webp?v=v20260611180056',  // grid card (3:2)
     process: [                                               // 6 images for process modal
-      '/images/daniel/all/daniel-159.webp',
-      '/images/daniel/all/daniel-155.webp',
-      '/images/daniel/all/daniel-158.webp',
-      '/images/daniel/all/daniel-157.webp',
-      '/images/daniel/all/daniel-156.webp',
-      '/images/daniel/all/daniel-160.webp',
+      '/images/daniel/all/daniel-159.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-155.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-158.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-157.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-156.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-160.webp?v=v20260611180056',
     ],
     after: [                                                 // optional result images
       '/images/daniel/all/daniel-vetri-after1.webp',
@@ -31,17 +31,17 @@ const PORTFOLIO_IMAGES = {
 
   // ── WRAPPING ───────────────────────────────────────────────────────────────
   wrapping: {
-    main:   '/images/daniel/all/daniel-090.webp',
-    small1: '/images/daniel/all/daniel-101.webp',
-    small2: '/images/daniel/all/daniel-048.webp',
-    small3: '/images/daniel/all/daniel-108.webp',
+    main:   '/images/daniel/all/daniel-090.webp?v=v20260611180056',
+    small1: '/images/daniel/all/daniel-101.webp?v=v20260611180056',
+    small2: '/images/daniel/all/daniel-048.webp?v=v20260611180056',
+    small3: '/images/daniel/all/daniel-108.webp?v=v20260611180056',
     process: [
-      '/images/daniel/all/daniel-142.webp',
-      '/images/daniel/all/daniel-094.webp',
-      '/images/daniel/all/daniel-092.webp',
-      '/images/daniel/all/daniel-093.webp',
-      '/images/daniel/all/daniel-091.webp',
-      '/images/daniel/all/daniel-143.webp',
+      '/images/daniel/all/daniel-142.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-094.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-092.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-093.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-091.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-143.webp?v=v20260611180056',
     ],
     after: [
       '/images/daniel/all/daniel-wrapping-after1.webp',
@@ -50,17 +50,17 @@ const PORTFOLIO_IMAGES = {
 
   // ── INTERNI ────────────────────────────────────────────────────────────────
   interni: {
-    main:   '/images/daniel/all/daniel-166.webp',
-    small1: '/images/daniel/all/daniel-095.webp',
-    small2: '/images/daniel/all/daniel-128.webp',
-    small3: '/images/daniel/all/daniel-130.webp',
+    main:   '/images/daniel/all/daniel-166.webp?v=v20260611180056',
+    small1: '/images/daniel/all/daniel-095.webp?v=v20260611180056',
+    small2: '/images/daniel/all/daniel-128.webp?v=v20260611180056',
+    small3: '/images/daniel/all/daniel-130.webp?v=v20260611180056',
     process: [
-      '/images/daniel/all/daniel-129.webp',
-      '/images/daniel/all/daniel-132.webp',
-      '/images/daniel/all/daniel-133.webp',
-      '/images/daniel/all/daniel-134.webp',
-      '/images/daniel/all/daniel-135.webp',
-      '/images/daniel/all/daniel-139.webp',
+      '/images/daniel/all/daniel-129.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-132.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-133.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-134.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-135.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-139.webp?v=v20260611180056',
     ],
     after: [
       '/images/daniel/all/daniel-interni-after1.webp',
@@ -69,17 +69,17 @@ const PORTFOLIO_IMAGES = {
 
   // ── LUCIDATURA ─────────────────────────────────────────────────────────────
   lucidatura: {
-    main:   '/images/daniel/all/daniel-062.webp',
-    small1: '/images/daniel/all/daniel-085.webp',
-    small2: '/images/daniel/all/daniel-045.webp',
-    small3: '/images/daniel/all/daniel-054.webp',
+    main:   '/images/daniel/all/daniel-062.webp?v=v20260611180056',
+    small1: '/images/daniel/all/daniel-085.webp?v=v20260611180056',
+    small2: '/images/daniel/all/daniel-045.webp?v=v20260611180056',
+    small3: '/images/daniel/all/daniel-054.webp?v=v20260611180056',
     process: [
-      '/images/daniel/all/daniel-061.webp',
+      '/images/daniel/all/daniel-061.webp?v=v20260611180056',
       '/images/daniel/all/daniel-063.webp',
-      '/images/daniel/all/daniel-060.webp',
-      '/images/daniel/all/daniel-066.webp',
-      '/images/daniel/all/daniel-065.webp',
-      '/images/daniel/all/daniel-064.webp',
+      '/images/daniel/all/daniel-060.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-066.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-065.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-064.webp?v=v20260611180056',
     ],
     after: [
       '/images/daniel/all/daniel-lucidatura-after1.webp',
@@ -88,17 +88,17 @@ const PORTFOLIO_IMAGES = {
 
   // ── PROTEZIONE ─────────────────────────────────────────────────────────────
   protezione: {
-    main:   '/images/daniel/all/daniel-103.webp',
-    small1: '/images/daniel/all/daniel-080.webp',
-    small2: '/images/daniel/all/daniel-059.webp',
-    small3: '/images/daniel/all/daniel-071.webp',
+    main:   '/images/daniel/all/daniel-103.webp?v=v20260611180056',
+    small1: '/images/daniel/all/daniel-080.webp?v=v20260611180056',
+    small2: '/images/daniel/all/daniel-059.webp?v=v20260611180056',
+    small3: '/images/daniel/all/daniel-071.webp?v=v20260611180056',
     process: [
-      '/images/daniel/all/daniel-107.webp',
-      '/images/daniel/all/daniel-106.webp',
-      '/images/daniel/all/daniel-105.webp',
-      '/images/daniel/all/daniel-104.webp',
-      '/images/daniel/all/daniel-103.webp',
-      '/images/daniel/all/daniel-102.webp',
+      '/images/daniel/all/daniel-107.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-106.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-105.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-104.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-103.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-102.webp?v=v20260611180056',
     ],
     after: [
       '/images/daniel/all/daniel-protezione-after1.webp',
@@ -107,17 +107,17 @@ const PORTFOLIO_IMAGES = {
 
   // ── DETAILING ──────────────────────────────────────────────────────────────
   detailing: {
-    main:   '/images/daniel/all/daniel-037.webp',
-    small1: '/images/daniel/all/daniel-099.webp',
-    small2: '/images/daniel/all/daniel-053.webp',
-    small3: '/images/daniel/all/daniel-038.webp',
+    main:   '/images/daniel/all/daniel-037.webp?v=v20260611180056',
+    small1: '/images/daniel/all/daniel-099.webp?v=v20260611180056',
+    small2: '/images/daniel/all/daniel-053.webp?v=v20260611180056',
+    small3: '/images/daniel/all/daniel-038.webp?v=v20260611180056',
     process: [
-      '/images/daniel/all/daniel-007.webp',
-      '/images/daniel/all/daniel-162.webp',
-      '/images/daniel/all/daniel-163.webp',
-      '/images/daniel/all/daniel-164.webp',
-      '/images/daniel/all/daniel-165.webp',
-      '/images/daniel/all/daniel-037.webp',
+      '/images/daniel/all/daniel-007.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-162.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-163.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-164.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-165.webp?v=v20260611180056',
+      '/images/daniel/all/daniel-037.webp?v=v20260611180056',
     ],
     after: [
       '/images/daniel/all/daniel-detailing-after1.webp',
@@ -127,11 +127,11 @@ const PORTFOLIO_IMAGES = {
   // ── ALTRI LAVORI ───────────────────────────────────────────────────────────
   // Clean gallery — no process modal, no labels, only photos
   altriLavori: {
-    main:    '/images/daniel/all/daniel-174.webp',  // large photo left
-    small1:  '/images/daniel/all/daniel-181.webp',  // right top
-    small2:  '/images/daniel/all/daniel-169.webp',  // right bottom
-    small3:  '/images/daniel/all/daniel-173.webp',  // bottom row left
-    small4:  '/images/daniel/all/daniel-172.webp',  // bottom row right
+    main:    '/images/daniel/all/daniel-174.webp?v=v20260611180056',  // large photo left
+    small1:  '/images/daniel/all/daniel-181.webp?v=v20260611180056',  // right top
+    small2:  '/images/daniel/all/daniel-169.webp?v=v20260611180056',  // right bottom
+    small3:  '/images/daniel/all/daniel-173.webp?v=v20260611180056',  // bottom row left
+    small4:  '/images/daniel/all/daniel-172.webp?v=v20260611180056',  // bottom row right
     process: [] as string[],
     after:   [] as string[],
   },
@@ -139,7 +139,7 @@ const PORTFOLIO_IMAGES = {
 } as const;
 
 // CTA background image — change file name here if needed
-const CTA_BG = '/images/daniel/all/daniel-023.webp';
+const CTA_BG = '/images/daniel/all/daniel-023.webp?v=v20260611180056';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // END IMAGE CONTROL PANEL — do not edit components below unless changing layout

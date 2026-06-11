@@ -21,7 +21,7 @@ const SERVICES = [
       'Installazione professionale senza bolle',
       'Garanzia su materiali e manodopera',
     ],
-    image: '/images/daniel/all/daniel-180.webp',
+    image: '/images/daniel/all/daniel-180.webp?v=v20260611180056',
     faqs: [
       { q: 'Le pellicole sono omologate?', a: 'Sì, utilizziamo soluzioni certificate e ti indichiamo sempre cosa è consentito per il tuo veicolo.' },
       { q: "Quanto dura l'applicazione?", a: "Dipende dal modello dell'auto. In molti casi il lavoro viene completato in giornata." },
@@ -41,7 +41,7 @@ const SERVICES = [
       'Resistenza a graffi e agenti atmosferici',
       'Garanzia su materiali premium',
     ],
-    image: '/images/daniel/all/daniel-178.webp',
+    image: '/images/daniel/all/daniel-178.webp?v=v20260611180056',
     faqs: [
       { q: 'Il wrapping rovina la vernice?', a: 'No, se applicato e rimosso correttamente con materiali professionali. Può anche proteggere la vernice originale.' },
       { q: 'Quanto tempo serve per un wrapping completo?', a: 'Dipende dal veicolo e dalla complessità del lavoro. Definiamo tempi e materiali nel preventivo.' },
@@ -60,7 +60,7 @@ const SERVICES = [
       'Finitura pulita e invisibile',
       'Soluzione ideale per auto nuove, sportive e premium',
     ],
-    image: '/images/daniel/all/daniel-177.webp',
+    image: '/images/daniel/all/daniel-177.webp?v=v20260611180056',
     faqs: [
       { q: 'La pellicola PPF si vede?', a: 'No, è praticamente invisibile. La finitura è pulita e il risultato è indistinguibile dalla carrozzeria nuda.' },
       { q: 'Quanto dura la protezione PPF?', a: 'Con la giusta manutenzione dura diversi anni. Garantiamo copertura duratura contro graffi e pietrisco.' },
@@ -79,7 +79,7 @@ const SERVICES = [
       'Finitura gloss profonda',
       'Possibile protezione finale con cera, sigillante o trattamento dedicato',
     ],
-    image: '/images/daniel/all/daniel-179.webp',
+    image: '/images/daniel/all/daniel-179.webp?v=v20260611180056',
     faqs: [
       { q: 'La lucidatura rimuove tutti i graffi?', a: "Dipende dalla profondità. I micrograffi superficiali vengono rimossi; quelli profondi richiedono una valutazione specifica." },
       { q: 'Quanto dura una lucidatura professionale?', a: "Con la protezione finale applicata, gli effetti durano a lungo. Ti consigliamo la soluzione più adatta al tuo veicolo." },
@@ -98,7 +98,7 @@ const SERVICES = [
       'Lavorazione su misura',
       'Finitura pulita e coerente con lo stile dell\'auto',
     ],
-    image: '/images/daniel/all/daniel-095.webp',
+    image: '/images/daniel/all/daniel-095.webp?v=v20260611180056',
     faqs: [
       { q: 'Quali materiali posso scegliere?', a: "Valutiamo tessuti, alcantara, pelle sintetica e materiali premium in base allo stile dell'auto." },
       { q: 'Quanto dura il rivestimento del cielo?', a: "Lavoriamo con prodotti pensati per resistere nel tempo." },
@@ -463,7 +463,7 @@ export default function Services() {
       {/* Final CTA */}
       <section className="py-0">
         <div className="relative overflow-hidden" style={{ minHeight: '480px' }}>
-          <img src="/images/daniel/all/daniel-182.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-45" />
+          <img src="/images/daniel/all/daniel-182.webp?v=v20260611180056" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-45" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/96 via-[#000000]/70 to-[#000000]/25" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/40 via-transparent to-transparent" />
 

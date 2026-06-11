@@ -45,8 +45,8 @@ const carouselSlides = [
     ],
     cta: 'Scopri il servizio',
     link: '/servizi',
-    image: '/omni-58dfd320-3b3e-4266-81f3-abc4113c12c1.webp',
-    imageDesktop: '/omni-35ec0fba-abbf-4910-bbcd-759d82d1ea94.webp',
+    image: '/omni-58dfd320-3b3e-4266-81f3-abc4113c12c1.webp?v=v20260611180056',
+    imageDesktop: '/omni-35ec0fba-abbf-4910-bbcd-759d82d1ea94.webp?v=v20260611180056',
     alt: 'Wrapping auto premium a Novara',
   },
   {
@@ -59,7 +59,7 @@ const carouselSlides = [
     ],
     cta: 'SCOPRI IL SERVIZIO',
     link: '/servizi',
-    image: '/omni-84ecfb3f-2b8f-4f33-87a0-fa747edc415f.webp',                                                                                                                                    imageDesktop: '/omni-addc6a5b-73d8-4e06-b235-8ecf93ba3f46.webp',
+    image: '/omni-84ecfb3f-2b8f-4f33-87a0-fa747edc415f.webp?v=v20260611180056',                                                                                                                                    imageDesktop: '/omni-addc6a5b-73d8-4e06-b235-8ecf93ba3f46.webp?v=v20260611180056',
     alt: 'Lucidatura auto a Novara',
   },
   {
@@ -72,65 +72,65 @@ const carouselSlides = [
     ],
     cta: 'Scopri il servizio',
     link: '/servizi',
-    image: '/lakhuer-service.webp',                                                                                                                                               imageDesktop: '/images/daniel/all/daniel-167.webp',
+    image: '/lakhuer-service.webp?v=v20260611180056',                                                                                                                                               imageDesktop: '/images/daniel/all/daniel-167.webp?v=v20260611180056',
     alt: 'Oscuramento vetri auto a Novara',
   },
 ];
 
 const projectPhotos = [
   {
-    src: '/landrover-service-4k-mobile-card-4k.webp',
+    src: '/landrover-service-4k-mobile-card-4k.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/audi-service-4k-mobile-card-4k copy.webp',
+    src: '/audi-service-4k-mobile-card-4k copy.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
     objectPosition: 'bottom',
   },
   {
-    src: '/dima-service-4k-mobile-card-4k.webp',
+    src: '/dima-service-4k-mobile-card-4k.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/jhuv-service-05-clean-dark-base.webp',
+    src: '/jhuv-service-05-clean-dark-base.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/ppp-service-4k-desktop-wide-4k.webp',
+    src: '/ppp-service-4k-desktop-wide-4k.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/sss-service-05-crisp-contrast-base.webp',
+    src: '/sss-service-05-crisp-contrast-base.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/lar-service-04-crisp-contrast-mobile-card-2160x2700.webp',
+    src: '/lar-service-04-crisp-contrast-mobile-card-2160x2700.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/ljhover-service-05-crisp-contrast-base.webp',
+    src: '/ljhover-service-05-crisp-contrast-base.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/ffffdrover-service-04-dark-premium-base.webp',
+    src: '/ffffdrover-service-04-dark-premium-base.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/iouok-service-05-clean-dark-base.webp',
+    src: '/iouok-service-05-clean-dark-base.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
   {
-    src: '/poihn-service-05-clean-dark-base.webp',
+    src: '/poihn-service-05-clean-dark-base.webp?v=v20260611180056',
     title: 'Galleria Dettagli',
     vehicle: '',
   },
@@ -244,13 +244,13 @@ export default function Home() {
       <section className="relative w-full overflow-hidden" style={{ height: 'calc(100vh - 57px)' }}>
         {/* Desktop hero image */}
         <img
-          src="/omni-865d478c-c158-40a6-a3b9-cc3c6666bd30(2).webp"
+          src="/omni-865d478c-c158-40a6-a3b9-cc3c6666bd30(2).webp?v=v20260611180056"
           alt="Premium Car"
           className="absolute inset-0 w-full h-full object-cover hidden md:block"
         />
         {/* Mobile hero image */}
         <img
-          src="/omni-7c44ebe3-857e.webp"
+          src="/omni-7c44ebe3-857e.webp?v=v20260611180056"
           alt="Premium Car"
           className="absolute inset-0 w-full h-full object-cover md:hidden"
         />
@@ -556,7 +556,7 @@ export default function Home() {
               <Link to="/portfolio" className="group block">
                 <div className="overflow-hidden mb-4" style={{ aspectRatio: '4/3' }}>
                   <img
-                    src="/pfvpfv-service-02-premium-sharp-service-card-2400x1600.webp"
+                    src="/pfvpfv-service-02-premium-sharp-service-card-2400x1600.webp?v=v20260611180056"
                     alt="Wrapping Sportivo"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                     style={{ objectPosition: 'center center' }}
@@ -575,7 +575,7 @@ export default function Home() {
               <Link to="/portfolio" className="group block">
                 <div className="overflow-hidden mb-4" style={{ aspectRatio: '4/3' }}>
                   <img
-                    src="/photo_2026-05-23_00-18-37.jpg"
+                    src="/photo_2026-05-23_00-18-37.jpg?v=v20260611180056"
                     alt="Interni Custom"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
                     style={{ objectPosition: 'center center' }}
@@ -595,7 +595,7 @@ export default function Home() {
             <Link to="/portfolio" className="group flex flex-col lg:flex-1 order-1 lg:order-2">
               <div className="overflow-hidden flex-1 min-h-0 mb-5 w-full">
                 <img
-                  src="/photo_2026-05-21_07-36-44_(4).jpg"
+                  src="/photo_2026-05-21_07-36-44_(4).jpg?v=v20260611180056"
                   alt="Dettaglio Premium Ferrari Roma"
                   className="w-full h-full object-cover group-hover:scale-[1.04] transition-transform duration-700 ease-out"
                   style={{ objectPosition: 'center center' }}
@@ -665,7 +665,7 @@ export default function Home() {
                 {/* Car photo */}
                 <div className="mx-7 mt-7 relative overflow-hidden">
                   <img
-                    src="/photo_2026-05-21_07-36-44_(5).jpg"
+                    src="/photo_2026-05-21_07-36-44_(5).jpg?v=v20260611180056"
                     alt="Esperienza dal 2015"
                     className="w-full object-cover"
                     style={{ height: '160px', objectFit: 'cover', objectPosition: 'center center' }}
@@ -704,7 +704,7 @@ export default function Home() {
             <div className="relative bg-[#01414a] border border-[#025d69] flex flex-col flex-1" style={{ height: '560px' }}>
               <div className="mx-7 mt-7 relative overflow-hidden" style={{ height: '200px' }}>
                 <img
-                  src="/ldrvr-service-02-premium-sharp-base.webp"
+                  src="/ldrvr-service-02-premium-sharp-base.webp?v=v20260611180056"
                   alt="Precisione Artigianale"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: 'center bottom' }}
@@ -755,7 +755,7 @@ export default function Home() {
             {/* Card 2 — full-bleed photo with overlay */}
             <div className="relative overflow-hidden border border-[#025d69]" style={{ minHeight: '220px' }}>
               <img
-                src="/photo_2026-05-21_07-36-44_(5).jpg"
+                src="/photo_2026-05-21_07-36-44_(5).jpg?v=v20260611180056"
                 alt="Esperienza dal 2015"
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ objectPosition: 'center center' }}
@@ -883,7 +883,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-12 gap-6">
             <div className="lg:col-span-5 relative overflow-hidden bg-card border border-border">
               <img
-                src="/photo_2026-05-17_20-40-40.jpg"
+                src="/photo_2026-05-17_20-40-40.jpg?v=v20260611180056"
                 alt="Professional car detailing"
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{ objectPosition: 'center center' }}
@@ -1041,13 +1041,13 @@ export default function Home() {
         <div className="max-w-[1400px] mx-auto">
           <div className="relative overflow-hidden bg-[#000000] border border-accent/30" style={{ minHeight: '280px' }}>
             <img
-              src="/ldrvr-service-02-premium-sharp-base.webp"
+              src="/ldrvr-service-02-premium-sharp-base.webp?v=v20260611180056"
               alt="Premium automotive service"
               className="absolute inset-0 w-full h-full object-cover hidden md:block"
               style={{ objectPosition: 'center center' }}
             />
             <img
-              src="/r-service-03-dark-premium-mobile-card-2160x2700.webp"
+              src="/r-service-03-dark-premium-mobile-card-2160x2700.webp?v=v20260611180056"
               alt="Premium automotive service"
               className="absolute inset-0 w-full h-full object-cover md:hidden"
               style={{ objectPosition: 'center 20%' }}

@@ -70,7 +70,7 @@ export default function About() {
             <div className="lg:col-span-6">
               <div className="relative overflow-hidden h-full" style={{ minHeight: '420px' }}>
                 <img
-                  src='/images/daniel/all/daniel-173.webp'
+                  src='/images/daniel/all/daniel-173.webp?v=v20260611180056'
                   alt="Detailing Garage Daniel"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
@@ -170,7 +170,7 @@ export default function About() {
       {/* Final CTA */}
       <section className="py-0">
         <div className="relative overflow-hidden" style={{ minHeight: '480px' }}>
-          <img src="/images/daniel/all/daniel-082.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-45" />
+          <img src="/images/daniel/all/daniel-082.webp?v=v20260611180056" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-45" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#000000]/96 via-[#000000]/70 to-[#000000]/25" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/40 via-transparent to-transparent" />
 
